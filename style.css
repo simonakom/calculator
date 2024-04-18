@@ -72,8 +72,19 @@ body {
     font-size: 25px;
     border: 1px solid rgb(183, 181, 181);
 }
+.butn-red {
+    background-color: #e65828f3;
+    color: white;
+    border: none; 
+    font-size: 25px;
+    border: 1px solid rgb(183, 181, 181);
+}
 .butn-orange:hover {
     background-color: #ff8605 !important;
+    color: white !important;
+}
+.butn-red:hover {
+    background-color: #f14343f3 !important;
     color: white !important;
 }
 .btn:hover {
