@@ -22,6 +22,10 @@ function appendNumberToActiveInput(number) {
     if (currentOperation.endsWith('²') || currentOperation.endsWith('%')) {
         return;
     }
+    // Check if a mathematical sign already exists
+    if (currentOperation.match(/[+\-*/²%]/) && number.match(/[+\-*/²%]/)) {
+        return;
+    }
 
     operationInput.value += number;
 }
